@@ -14,7 +14,7 @@ var $ = (function () {
 		const element =
 			typeof selector == "string"
 				? document.querySelector(selector)
-				: element;
+				: selector;
 		return {
 			element,
 			selector,
